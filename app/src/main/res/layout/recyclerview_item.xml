@@ -8,7 +8,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp">
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,6 +47,9 @@
                             android:id="@+id/dish_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
                             android:layout_weight="1"
                             android:gravity="center|left"
                             android:text="item name">
@@ -61,7 +66,9 @@
                         <TextView
                             android:id="@+id/dish_price"
                             android:layout_width="match_parent"
-
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="hsd">
@@ -73,6 +80,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="5dp"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
                             android:layout_weight="1"
                             android:gravity="right"
                             android:text="hvbhsd">
@@ -82,7 +92,9 @@
                         <TextView
                             android:id="@+id/dish_calories_text"
                             android:layout_width="match_parent"
-
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="#000000"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="calories">
@@ -126,7 +138,7 @@
                 <TextView
                     android:id="@+id/dish_description"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="gsd">
 
                 </TextView>
